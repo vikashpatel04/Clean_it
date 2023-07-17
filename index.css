@@ -1,5 +1,29 @@
 *{
     margin: 0%;
     padding: 0%;
-
+    background-color: #326789;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 73px;
+    width: 79px;
+    /* filter: drop-shadow(4px 4px 8px #000); */
+}
+.center_nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav_btn{
+    background-color: #E65C4F;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: none;
+    height:165px;
 }
