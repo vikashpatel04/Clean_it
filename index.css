@@ -6,7 +6,7 @@
     margin: 0%;
     padding: 0%;
     background-color: #326789;
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
 header{
@@ -80,7 +80,7 @@ header{
 .main{
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 85vh;
 }
 .home_intro{
     color: #FFF;
@@ -94,10 +94,32 @@ header{
 .bg_ground{
     position: absolute;
     bottom: 0%;
+    z-index: -4;
 }
 .cleaner{
     z-index: 2;
     background-color: transparent;
-    top: 40px;
+    padding-top: 80px;
+    
+}
+.main_down{
+    background-color: #D1E9FB;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 140px;
+    /* overflow: hidden; */
+    position: relative;
+    
+}
+.main_e1,.main_e2,.main_e3{
+    background-color: #78A6C8;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    border: 8px solid #E9EEF4;
+    position: absolute;
+    top: -80px;
     
 }
