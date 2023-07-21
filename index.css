@@ -1,29 +1,103 @@
+@font-face {
+  font-family: 'Sansation';
+  src: url('assets/fonts/Sansation_Regular.ttf') format('truetype');
+}
 *{
     margin: 0%;
     padding: 0%;
     background-color: #326789;
+    overflow: hidden;
+    
+}
+header{
+    position: absolute;
+    width: 100%;
 }
 .nav{
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    padding-top: 10px;
+    z-index: 400;
+
 }
 .logo{
     height: 73px;
     width: 79px;
-    /* filter: drop-shadow(4px 4px 8px #000); */
+    
 }
-.center_nav ul{
+.center_nav{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+.center_nav ul a{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     
 }
+.center_nav ul li{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    
+
+}
 .nav_btn{
-    background-color: #E65C4F;
-    padding: 8px;
-    border-radius: 5px;
-    box-shadow: none;
-    height:165px;
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px;
+    background: #E65C4F;
+    color: #FFF;
+    font-family: Sansation, sans-serif;
+    border: none;
+
+}
+.nav_btn:hover{
+    background: #d04336;
+    color: #FFF;
+}
+.nav_btn:active{
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px;
+    background: #E65C4F;
+    color: #FFF;
+}
+.main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.home_intro{
+    color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    font-weight: 400;
+    z-index: 300;
+    padding-left: 8rem;
+    background-color: transparent;
+}
+.bg_ground{
+    position: absolute;
+    bottom: 0%;
+}
+.cleaner{
+    z-index: 2;
+    background-color: transparent;
+    top: 40px;
+    
 }
