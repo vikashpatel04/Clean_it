@@ -5,9 +5,12 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color: #326789;
+    /* background-color: #326789; */
     /* overflow: hidden; */
     
+}
+.bgt{
+    background-color: transparent;
 }
 header{
     position: absolute;
@@ -81,6 +84,8 @@ header{
     display: flex;
     align-items: center;
     height: 85vh;
+    justify-content: space-around;
+    background-color: #326789;
 }
 .home_intro{
     color: #FFF;
@@ -94,26 +99,29 @@ header{
 .bg_ground{
     position: absolute;
     bottom: 0%;
-    z-index: -4;
+    /* z-index: -4; */
+    left: 0%;
+    bottom: 15%;
+    scale: 150%;
 }
 .cleaner{
     z-index: 2;
     background-color: transparent;
     padding-top: 80px;
+    scale: 120%;
     
 }
-.main_down{
+.main_down {
+    position: relative;
     background-color: #D1E9FB;
     height: 15vh;
     width: 100%;
     display: flex;
-    justify-content:center;
-    gap: 140px;
-    /* overflow: hidden; */
-    position: relative;
-    
+    /* justify-content: space-between; */
 }
-.main_e1,.main_e2,.main_e3{
+
+.main_e1, .main_e2, .main_e3 {
+    flex: 1;
     background-color: #78A6C8;
     height: 140px;
     width: 140px;
@@ -122,4 +130,90 @@ header{
     position: absolute;
     top: -80px;
     
+}
+
+.main_e1 {
+    margin-left: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_e2 {
+    margin-left: 46.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_e3 {
+    margin-left: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    background-color: transparent;
+}
+.main-btn{
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #E65C4F;
+    border-radius: 8px;
+    color: #FFF;
+    margin: 0%;
+}
+.mbtn{
+    padding-left: 8px;
+}
+.mp{
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 60px;
+}
+.main_down_p1{
+    
+    
+}
+.subtext-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+.hiw{
+    height: 80vh;
+    background-color: #ffffff;
+
+
+}
+.hiw h1{
+    color: #3267892E;
+    font-size: 128px;
+    text-align: center;
+    padding-top: 104px;
+}
+.cardholder_hiw{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.card_hiw{
+    background-color: #91BEDF;
+    width: 268px;
+    height: 330px;
+
+
+}
+.hiw_card_icon{
+    border: 8px solid #91BEDF;
+    
+}
+.hiw_card_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
