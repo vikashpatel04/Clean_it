@@ -210,10 +210,16 @@ header{
 }
 .hiw_card_icon{
     border: 8px solid #91BEDF;
+    top: -50px;
+    background-color: #326789;
+    padding: 5px;
+    overflow: visible;
+
     
 }
 .hiw_card_text{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
