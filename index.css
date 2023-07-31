@@ -83,7 +83,7 @@ header{
 .main{
     display: flex;
     align-items: center;
-    height: 85vh;
+    height: 84vh;
     justify-content: space-around;
     background-color: #326789;
 }
@@ -105,7 +105,7 @@ header{
     scale: 150%;
 }
 .cleaner{
-    z-index: 2;
+    /* z-index: 2; */
     background-color: transparent;
     padding-top: 80px;
     scale: 120%;
@@ -114,7 +114,7 @@ header{
 .main_down {
     position: relative;
     background-color: #D1E9FB;
-    height: 15vh;
+    height: 16vh;
     width: 100%;
     display: flex;
     /* justify-content: space-between; */
@@ -172,10 +172,7 @@ header{
     text-align: center;
     padding-top: 60px;
 }
-.main_down_p1{
-    
-    
-}
+
 .subtext-main{
     width: 100%;
     display: flex;
@@ -190,9 +187,14 @@ header{
 }
 .hiw h1{
     color: #3267892E;
-    font-size: 128px;
+    font-size: 160px;
     text-align: center;
-    padding-top: 104px;
+    /* padding-top: 104px; */
+}
+.div_h1{
+    color: #3267892E;
+    font-size: 160px;
+    text-align: center;
 }
 .cardholder_hiw{
     display: flex;
@@ -203,23 +205,77 @@ header{
 }
 .card_hiw{
     background-color: #91BEDF;
-    width: 268px;
-    height: 330px;
-
+    width: 308px;
+    height: 380px;
+    box-shadow: 0 4px 8px 0 rgba(5,5,2,.3);
 
 }
 .hiw_card_icon{
     border: 8px solid #91BEDF;
-    top: -50px;
+    border-radius: 50%;
+    top: -35px;                                                   
     background-color: #326789;
-    padding: 5px;
+    padding: 10px;
     overflow: visible;
-
+    scale: 100%;
+    position: absolute;
     
 }
+
 .hiw_card_text{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    position: relative;
+}
+
+.hiw_card_img{
+    width: 100%;
+}
+.hiw_card_img img{
+    width: 100%;
+}
+.hiw_text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.hiw_text h2{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-size: 32px;
+}
+.s_main{
+    background-color: #E9EEF4;
+    height: 84vh;
+}
+.s_head{
+    /* background-color: #E9EEF4; */
+    height: 16vh;
+}
+.s_img_holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding-top: 10rem;
+}
+.s_img{
+    box-shadow: inset 0 0 0 0 #111;
+    transition: .5s;    
+}
+.s_img img{
+    border-radius: 10px;
+    scale: 108%;
+}
+.s_img:hover{
+    box-shadow: inset 400px 0 0 0 #111;
+    transition: .5s;
+}
+.waw_head{
+    background-color: #78A6C8;
+    color: #FFFFFF2E;
 }
