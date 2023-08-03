@@ -265,17 +265,69 @@ header{
 }
 .s_img{
     box-shadow: inset 0 0 0 0 #111;
-    transition: .5s;    
+    transition: .5s;
+    border-radius: 10px;    
 }
 .s_img img{
-    border-radius: 10px;
     scale: 108%;
 }
 .s_img:hover{
     box-shadow: inset 400px 0 0 0 #111;
     transition: .5s;
 }
-.waw_head{
+.wwe_main{
     background-color: #78A6C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wwe_head{
     color: #FFFFFF2E;
+    height: 16vh;
+}
+.wwe_content p{
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    font-family: Inter;
+    font-size: 3.2em;
+    background-color: #78A6C8;
+    padding: 3rem 0 3rem 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 3rem;
+
+
+}
+.wwe_content{
+    height: 84vh;
+    background-color: #78A6C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video_main{
+    background-image: url(assets/images/Rectangle\ 13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r_main{
+    height: 100vh;
+}
+.c_box{
+    height: 60vh;
+    background-color: #E65C4F;
+    color: #FFFFFF;
+
+}
+.c_box button{
+    background-color: #326789;
+    color: #FFFFFF;
+    padding: ;
 }
