@@ -167,9 +167,55 @@
             <h2>Book your house cleaning under 60 seconds</h2>
             <p>1. Select no. of rooms 2. Seclect package 3. Schedule maid service</p>
             <form>
-            <input type="text" name="zipcode" id="zipcode" required placeholder="Enter Zip code" pattern="[0-9] {6}">
+            <input 
+                type="text" 
+                name="zipcode" 
+                placeholder="Enter Zip code" 
+                pattern="[0-9]"
+                id="zipcode"
+                maxlength="6"
+                title="Fill the form with NUMBERS(0-9) only characters at not allowed !"
+                required
+
+            >
+                 
             <button type="submit">Search</button>
             </form>
+        </div>
+        <div class="links">
+            <div class="address">
+                <div class="l_logo">
+                <img src="assets/images/logo.png" alt="Logo">
+                <h1>Clean it</h1>
+                </div>
+                <address>
+                    4, Chandra Bhuvan, Marve Road, Opp<br> Punjab National Bank, Malad (west)<br> Mumbai - 400064
+                </address>
+                <div class="ph">
+                    <img src="assets/images/phone-solid.svg" alt="phone icon">
+                    <h1>+91 8056658466</h1>
+                </div>
+            </div>
+            <div class="social">
+                <div class="instagram">
+                <img src="assets/images/instagram.svg" alt="instagram logo"><p>instagram.com/cleanit</p>
+                </div>
+                <div class="whatsapp">
+                <img src="assets/images/whatsapp.svg" alt="whatsapp logo"><p>+91 8056658466</p>
+                </div>
+                <div class="facebook">
+                <img src="assets/images/facebook.svg" alt="facebook logo"><p>facebook.com/cleanit</p>
+                </div>
+            </div>
+            <div class="tc">
+                <p>
+                    Privacy policy
+                </p>
+                <p>
+                    Terms of service
+                </p>
+
+            </div>
         </div>
     </section>
 </body>
