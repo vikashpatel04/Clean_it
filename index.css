@@ -109,42 +109,31 @@ header {
   height: 16vh;
   width: 100%;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 200px;
+  
 }
-
-.main_e1,
-.main_e2,
-.main_e3 {
-  flex: 1;
-  background-color: #78a6c8;
-  height: 140px;
-  width: 140px;
-  border-radius: 100%;
-  border: 8px solid #e9eef4;
-  position: absolute;
-  top: -80px;
-}
-
-.main_e1 {
-  margin-left: 26%;
+.md_element{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -30%;
+  
+}
+.img_md{
+  background-color: #78A6C8;
+  border: 8px solid #E9EEF4;
+  border-radius: 50%;
+  padding: 30px;
+}
+.p_md{
+  text-align: center;
+  font-family: "Gabriela", serif;
+  font-size: 24px;
 }
 
-.main_e2 {
-  margin-left: 46.5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main_e3 {
-  margin-left: 67%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .icon {
   background-color: transparent;
 }
@@ -166,13 +155,6 @@ header {
   text-align: center;
   padding-top: 60px;
   font-family: "Gabriela", serif;
-}
-
-.subtext-main{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 15rem;
 }
 .hiw {
   height: 80vh;
@@ -257,17 +239,14 @@ header {
   padding-top: 10rem;
 }
 .s_img {
-  box-shadow: inset 0 0 0 0 #111;
-  transition: 0.5s;
-  border-radius: 10px;
+  width: 100%;
+  display: block;
+
 }
 .s_img img {
   scale: 108%;
 }
-.s_img:hover {
-  box-shadow: inset 400px 0 0 0 #111;
-  transition: 0.5s;
-}
+
 .wwe_main {
   background-color: #78a6c8;
   display: flex;
@@ -426,9 +405,34 @@ address {
   border: 0px;
   border-color: transparent;
   margin: 0px;
+  
 }
 .zero:active {
   border: 0px;
   border-color: transparent;
   margin: 0px;
+}
+.zero a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.card_hold {
+  position: relative;
+
+
+}
+.card_hold h3{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.card_hold h3:hover  {
+  opacity: 1;
 }
