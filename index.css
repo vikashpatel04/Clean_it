@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @font-face {
   font-family: "Sansation";
   src: url("assets/fonts/Sansation_Regular.ttf") format("truetype");
@@ -289,6 +290,42 @@ header {
 }
 .r_main {
   height: 100vh;
+  background-color: #E9EEF4;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+.r_main h1{
+  font-family: "Gabriela", serif;
+  font-size: 5.6em;
+  text-align: center;
+  padding-top: 5rem;
+  color: #3267892E;
+}
+.r_cards{
+  background-color: #91BEDF;
+  width: 560px;
+  height: 350px;
+  border-radius: 12px;
+
+
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  top: -18%;
+  position: relative;
+}
+.r_text{
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2em;
+  margin: 10px 30px 10px 30px;
+}
+.wrapper{
+  display: flex;
+  overflow-x: auto;
 }
 .c_box {
   height: 55vh;
